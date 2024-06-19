@@ -37,3 +37,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+// JavaScript to handle revealing clues with animation
+document.addEventListener('DOMContentLoaded', function() {
+    const tasks = document.querySelectorAll('input[type="checkbox"]');
+    const clues = document.querySelectorAll('.clue');
+
+    tasks.forEach((task, index) => {
+        task.addEventListener('change', function() {
+            if (this.checked) {
+                // Show clue with slide-in animation
+                clues[index].classList.add('slide-in-left');
+                clues[index].style.display = 'block';
+            } else {
+                // Hide clue
+                clues[index].classList.remove('slide-in-left');
+                clues[index].style.display = 'none';
+            }
+        });
+    });
+});
