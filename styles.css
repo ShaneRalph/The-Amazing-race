@@ -56,3 +56,72 @@ input[type="checkbox"] {
     font-style: italic;
     color: #555; /* Dark gray text */
 }
+
+/* Add keyframes for fade-in animation */
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* Apply fade-in animation to challenges */
+.challenge {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Gray border */
+    animation: fade-in 0.5s ease-out; /* Apply animation */
+}
+
+/* Slide-in animation */
+.slide-in-left {
+    animation: slide-in-left 0.5s ease-out;
+}
+
+/* Keyframes for slide-in-left animation */
+@keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply slide-in animation to clues */
+.clue {
+    display: none;
+    background-color: #fff; /* White background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-style: italic;
+    color: #555; /* Dark gray text */
+}
+
+/* Button hover animation */
+input[type="checkbox"]:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    transition: transform 0.3s ease-out;
+}
+
+/* Header bounce animation */
+header {
+    background-color: #ff69b4; /* Deep pink background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    animation: bounce 0.5s ease-out; /* Apply animation */
+}
+
+/* Keyframes for bounce animation */
+@keyframes bounce {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
