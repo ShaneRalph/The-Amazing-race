@@ -1,14 +1,14 @@
 body {
-    font-family: 'Comic Sans MS', cursive;
-    background-color: #f7e4e4; /* Light pink background */
-    color: #4a4a4a; /* Dark gray text */
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333; /* Dark gray text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffcc99; /* Light orange background */
-    color: #4a4a4a; /* Dark gray text */
+    background-color: #ff69b4; /* Deep pink background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 20px 0;
     margin-bottom: 20px;
@@ -18,26 +18,25 @@ header {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-}
-
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-    font-family: 'Fredoka One', cursive;
-}
-
-.challenge {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
+    background-color: #fff; /* White background for challenges */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.challenge {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc; /* Gray border */
+}
+
 .challenge h2 {
+    color: #ff69b4; /* Deep pink text */
     margin-top: 0;
-    color: #ff6699; /* Pink text */
-    font-family: 'Fredoka One', cursive;
 }
 
 p {
@@ -50,12 +49,10 @@ input[type="checkbox"] {
 
 .clue {
     display: none;
-    background-color: #ffccff; /* Light purple background */
+    background-color: #fff; /* White background */
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
     font-style: italic;
-    font-weight: bold;
-    color: #4a4a4a; /* Dark gray text */
+    color: #555; /* Dark gray text */
 }
-
