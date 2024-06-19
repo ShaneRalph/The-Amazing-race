@@ -1,11 +1,28 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff69b4; /* Pink background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
     padding: 20px;
 }
 
 h1 {
-    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 .challenge {
@@ -18,11 +35,20 @@ h1 {
 
 .challenge h2 {
     margin-top: 0;
+    color: #ff69b4; /* Pink text */
+}
+
+p {
+    line-height: 1.6;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 10px;
 }
 
 .clue {
     display: none;
-    background-color: #e0f7fa;
+    background-color: #ffccff; /* Light pink background */
     padding: 10px;
     border-radius: 5px;
     margin-top: 10px;
